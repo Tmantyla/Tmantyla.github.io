@@ -2,25 +2,26 @@
 <html>
     <head>
         <title>Solaclicker 0.0.1</title>
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
     </head>
     <body>
 
-        <h1>Solaclicker v.0.0.1</h1>
+        <h1>Solaclicker v.0.0.2</h1>
 
-        
+        <img src = assets/images/logo.png alt = 'sola logo'></img>
+
         <button type="button" onclick="document.getElementById('demo').style.display = 'block'">
             Click me to display image of sola.
         </button>
 
 
-        <div id = 'demo' display = 'none'>
-            <img src = 'click.png' alt = 'stock sola'></img>
-            <button type="button"
+        <img src = 'assets/images/click.png' alt = 'stock sola' id = 'demo'></img>
+
+
+        <button type="button" id = 'demo'
             onclick="document.getElementById('demo').style.display = 'none'">
             Nevermind, I don't want to see it
-            </button>
-        </div>
+        </button>
 
         <script>
             document.getElementById('demo').style.display = 'none'
