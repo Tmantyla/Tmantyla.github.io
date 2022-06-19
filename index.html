@@ -7,22 +7,27 @@
     <body>
 
         <h1>Solaclicker v.0.0.2</h1>
+        <div>
+            <img src = assets/images/logo.png alt = 'sola logo'></img>
+        </div>
 
-        <img src = assets/images/logo.png alt = 'sola logo'></img>
+        <div>
+            <button type="button" onclick="document.getElementById('demo').style.display = 'block'">
+                Click me to display image of sola.
+            </button>
+        </div>
 
-        <button type="button" onclick="document.getElementById('demo').style.display = 'block'">
-            Click me to display image of sola.
-        </button>
+        <div>
+            <img src = 'assets/images/click.png' alt = 'stock sola' id = 'demo'></img>
+        </div>
 
-
-        <img src = 'assets/images/click.png' alt = 'stock sola' id = 'demo'></img>
-
-
-        <button type="button" id = 'demo'
-            onclick="document.getElementById('demo').style.display = 'none'">
-            Nevermind, I don't want to see it
-        </button>
-
+        <div>
+            <button type="button" id = 'demo'
+                onclick="document.getElementById('demo').style.display = 'none'">
+                Nevermind, I don't want to see it
+            </button>
+        </div>
+        
         <script>
             document.getElementById('demo').style.display = 'none'
         </script>
