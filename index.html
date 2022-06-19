@@ -5,18 +5,21 @@
     </head>
     <body>
 
-        <h2>Solaclicker v.0.0.1</h2>
+        <h1>Solaclicker v.0.0.1</h1>
 
         <script>
             var myImage = new Image()
             myImage.src = 'click.png'
+            myImage.alt = 'stock sola'
         </script>
 
         <button type="button"
-        onclick="document.body.appendChild(myImage)">
+        onclick="document.getElementById('demo').style.display = 'block'">
         Click me to display image of sola.</button>
 
-        <p id="demo"></p>
+        <h2 id = 'demo' style.display = 'none'>
+            <img myImage></img>
+        </h2>
 
     </body>
 </html> 
