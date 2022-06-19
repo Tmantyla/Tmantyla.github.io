@@ -7,22 +7,17 @@
 
         <h1>Solaclicker v.0.0.1</h1>
 
-        <script>
-            var myImage = new Image()
-            myImage.src = 'click.png'
-            myImage.alt = 'stock sola'
-        </script>
-
         <button type="button"
         onclick="document.getElementById('demo').style.display = 'block'">
         Click me to display image of sola.</button>
 
-        <h2 id = 'demo' style.display = 'none'>
-            <img myImage></img>
+        <body id = 'demo' style.display = 'none'>
+            <img src = 'click.png' alt = 'stock sola'></img>
             <button type="button"
             onclick="document.getElementById('demo').style.display = 'none'">
-            Nevermind, hide it</button>
-        </h2>
+            Nevermind, I don't want to see it
+            </button>
+        </body>
 
     </body>
 </html> 
