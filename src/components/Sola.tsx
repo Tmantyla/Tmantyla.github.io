@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Solakuva from './assets/images/click.png'
+import Solakuva from '../assets/images/click.png'
 
 const Sola = () => {
   const [sola, setSola] = useState(0);
